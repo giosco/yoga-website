@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact me to book a yoga session, inquire about services, or ask any questions about personalized yoga instruction.">
+    <title>Serene Yoga Practice | Contact</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Serene Yoga</h1>
+            </div>
+            <nav>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="active btn-primary">Book Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-banner">
+        <div class="banner-content">
+            <h1>Contact & Booking</h1>
+            <p>Let's begin your yoga journey together</p>
+        </div>
+    </section>
+
+    <section class="contact-intro">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <p>I'm here to answer your questions and help you find the perfect yoga experience</p>
+            </div>
+            <div class="contact-intro-content">
+                <p>Whether you're ready to book your first session, have questions about which service is right for you, or would like to discuss custom options, I'm happy to help. Fill out the form below, and I'll respond within 24 hours.</p>
+                <p>For urgent inquiries, you can also reach me directly by phone or email using the contact information at the bottom of this page.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="form-container">
+                    <h3>Booking Request / Inquiry</h3>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="inquiryType">Inquiry Type *</label>
+                            <select id="inquiryType" name="inquiryType" required>
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="booking">Session Booking</option>
+                                <option value="info">Service Information</option>
+                                <option value="custom">Custom Program Inquiry</option>
+                                <option value="corporate">Corporate/Group Inquiry</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="serviceType">Service Interest</label>
+                            <select id="serviceType" name="serviceType">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="home">Home Sessions</option>
+                                <option value="outdoor">Outdoor Sessions</option>
+                                <option value="venue">Venue Sessions</option>
+                                <option value="group">Group Sessions</option>
+                                <option value="event">Event Yoga</option>
+                                <option value="not-sure">Not Sure Yet</option>
+                            </select>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="preferredDates">Preferred Dates/Times (if applicable)</label>
+                            <input type="text" id="preferredDates" name="preferredDates" placeholder="E.g., weekday evenings, Saturday mornings, etc.">
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="location">Your Location (for distance calculation)</label>
+                            <input type="text" id="location" name="location" placeholder="City/Neighborhood">
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="experience">Your Yoga Experience</label>
+                            <select id="experience" name="experience">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="beginner">Beginner (0-6 months)</option>
+                                <option value="intermediate">Intermediate (6 months - 2 years)</option>
+                                <option value="advanced">Advanced (2+ years)</option>
+                                <option value="none">No previous experience</option>
+                            </select>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="goals">Your Goals & Any Health Considerations</label>
+                            <textarea id="goals" name="goals" rows="4" placeholder="What are you hoping to achieve through yoga? Any injuries, health conditions, or concerns I should be aware of?"></textarea>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="message">Additional Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Any other details you'd like to share..."></textarea>
+                        </div>
+                        <div class="form-group full-width">
+                            <label class="checkbox-container">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <span class="checkmark"></span>
+                                Subscribe to occasional emails with yoga tips and special offers
+                            </label>
+                        </div>
+                        <div class="form-submit">
+                            <button type="submit" class="btn-primary">Send Request</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-sidebar">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <ul>
+                            <li><i class="fas fa-envelope"></i> info@sereneyoga.com</li>
+                            <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                            <li><i class="fas fa-map-marker-alt"></i> Serving the greater [Your City] area</li>
+                        </ul>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="business-hours">
+                        <h3>Availability</h3>
+                        <ul>
+                            <li><span>Monday - Friday:</span> 7:00 AM - 8:00 PM</li>
+                            <li><span>Saturday:</span> 8:00 AM - 5:00 PM</li>
+                            <li><span>Sunday:</span> 9:00 AM - 2:00 PM</li>
+                        </ul>
+                        <p class="note">* Hours may vary based on booking schedule. Early morning and evening sessions available by arrangement.</p>
+                    </div>
+                    <div class="response-time">
+                        <h3>Response Time</h3>
+                        <p>I typically respond to all inquiries within 24 hours during business days. For urgent matters, please call or text the phone number listed above.</p>
+                    </div>
+                    <div class="calendly-widget">
+                        <h3>Quick Booking</h3>
+                        <p>For streamlined booking, you can also schedule directly through my online calendar. Click the button below to view available times.</p>
+                        <a href="#" class="btn-secondary">View Availability Calendar</a>
+                        <p class="note">Note: Replace this section with your preferred scheduling tool (Calendly, Acuity, etc.) when setting up the site.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Common questions about booking and sessions</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What happens after I submit this form?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>After receiving your inquiry, I'll contact you within 24 hours to discuss your needs in more detail. We'll talk about your goals, any health considerations, and find the best service and schedule for you. If you're ready to proceed, we'll confirm your first session date and I'll provide any preparation information you might need.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How much space do I need for a home session?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Ideally, you'll need enough space for a yoga mat (about 6 feet by 2 feet) plus some room around it to extend your arms fully. However, I'm experienced in adapting practices to various space constraints. Even a small area can work for a modified practice, and I'll help you make the most of the space you have available.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do I need to have my own yoga equipment?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No, I provide all necessary equipment for our sessions, including mats, blocks, straps, and bolsters. If you have your own mat that you prefer to use, that's perfectly fine. For regular practitioners, I can also provide recommendations if you're interested in purchasing your own equipment over time.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I prepare for my first session?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Wear comfortable clothing that allows for movement. For home sessions, try to create a quiet space free from distractions. For outdoor sessions, dress appropriately for the weather. It's best to practice on an empty stomach (2-3 hours after a meal, 1 hour after a light snack). Most importantly, come with an open mind and be ready to communicate about what feels good for your body.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="location-service">
+        <div class="container">
+            <div class="service-area">
+                <h2>Service Area</h2>
+                <p>I currently offer services throughout the greater [Your City] area, including:</p>
+                <div class="area-list">
+                    <ul>
+                        <li>[Neighborhood/Area 1]</li>
+                        <li>[Neighborhood/Area 2]</li>
+                        <li>[Neighborhood/Area 3]</li>
+                        <li>[Neighborhood/Area 4]</li>
+                    </ul>
+                    <ul>
+                        <li>[Neighborhood/Area 5]</li>
+                        <li>[Neighborhood/Area 6]</li>
+                        <li>[Neighborhood/Area 7]</li>
+                        <li>[Neighborhood/Area 8]</li>
+                    </ul>
+                </div>
+                <p>Not sure if you're within my service area? Contact me with your location, and I'll let you know. Additional travel fees may apply for locations beyond a 15-mile radius.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gift-certificates">
+        <div class="container">
+            <div class="gift-content">
+                <div class="gift-text">
+                    <h2>Gift a Yoga Experience</h2>
+                    <p>Looking for a meaningful gift for someone special? Gift certificates are available for any service or package and can be personalized with a special message.</p>
+                    <p>To purchase a gift certificate, simply indicate this in the inquiry form or contact me directly.</p>
+                </div>
+                <div class="gift-image">
+                    <img src="/api/placeholder/500/300" alt="Yoga gift certificate">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Serene Yoga</h3>
+                    <p>Finding balance in every breath</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> info@sereneyoga.com</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Serene Yoga. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
